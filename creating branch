@@ -1,0 +1,37 @@
+PS C:\Users\Student\Documents\repo\Group-2> git checkout -b 20240912_Mitzi_Mitzibranch
+Switched to a new branch '20240912_Mitzi_Mitzibranch'
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'ok'
+Author identity unknown
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+PS C:\Users\Student\Documents\repo\Group-2> git config --global user.email "mitzirosales2311@gmail.com"
+PS C:\Users\Student\Documents\repo\Group-2> git config --global user.name "SairiiX"
+PS C:\Users\Student\Documents\repo\Group-2> git push
+fatal: The current branch 20240912_Mitzi_Mitzibranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin 20240912_Mitzi_Mitzibranch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\Student\Documents\repo\Group-2> git push --set-upstream origin 20240912_Mitzi_Mitzibranch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 875 bytes | 875.00 KiB/s, done.
+Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for '20240912_Mitzi_Mitzibranch' on GitHub by visiting:
+remote:      https://github.com/Yel-git/Group-2/pull/new/20240912_Mitzi_Mitzibranch
+remote:
+To https://github.com/Yel-git/Group-2.git
+ * [new branch]      20240912_Mitzi_Mitzibranch -> 20240912_Mitzi_Mitzibranch
+branch '20240912_Mitzi_Mitzibranch' set up to track 'origin/20240912_Mitzi_Mitzibranch'.
+PS C:\Users\Student\Documents\repo\Group-2> 
