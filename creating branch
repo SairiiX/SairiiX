@@ -35,3 +35,175 @@ To https://github.com/Yel-git/Group-2.git
  * [new branch]      20240912_Mitzi_Mitzibranch -> 20240912_Mitzi_Mitzibranch
 branch '20240912_Mitzi_Mitzibranch' set up to track 'origin/20240912_Mitzi_Mitzibranch'.
 PS C:\Users\Student\Documents\repo\Group-2> 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git branch 20240912_Mitzi_Mensahe 
+  20240912_Mitzi_Mensahe
+To https://github.com/Yel-git/Group-2.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Yel-git/Group-2.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\Student\Documents\repo\Group-2> git checkout -b 20240912_Mitzi_Mitzibranch
+Switched to a new branch '20240912_Mitzi_Mitzibranch'
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'ok'
+Author identity unknown
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+PS C:\Users\Student\Documents\repo\Group-2> git config --global user.email "mitzirosales2311@gmail.com"
+PS C:\Users\Student\Documents\repo\Group-2> git config --global user.name "SairiiX"
+PS C:\Users\Student\Documents\repo\Group-2> git push
+fatal: The current branch 20240912_Mitzi_Mitzibranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin 20240912_Mitzi_Mitzibranch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 875 bytes | 875.00 KiB/s, done.
+remote:
+remote: Create a pull request for '20240912_Mitzi_Mitzibranch' on GitHub by visiting:
+remote:
+To https://github.com/Yel-git/Group-2.git
+branch '20240912_Mitzi_Mitzibranch' set up to track 'origin/20240912_Mitzi_Mitzibranch'.
+PS C:\Users\Student\Documents\repo\Group-2> git branch
+* 20240912_Mitzi_Mitzibranch
+  main
+PS C:\Users\Student\Documents\repo\Group-2> git push origin --delete 20240912_Mitzi_Mitzibranch
+To https://github.com/Yel-git/Group-2.git
+ - [deleted]         20240912_Mitzi_Mitzibranch
+error: src refspec 20240912_Mitzi_BiniMitzi does not match any
+error: failed to push some refs to 'https://github.com/Yel-git/Group-2.git'
+PS C:\Users\Student\Documents\repo\Group-2> git push origin 20240912_Mitzi_BiniMitzi
+error: src refspec 20240912_Mitzi_BiniMitzi does not match any
+error: failed to push some refs to 'https://github.com/Yel-git/Group-2.git'
+PS C:\Users\Student\Documents\repo\Group-2> git push 20240912_Mitzi_BiniMitzi       
+fatal: '20240912_Mitzi_BiniMitzi' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+PS C:\Users\Student\Documents\repo\Group-2> git push
+Enumerating objects: 3, done.
+Writing objects: 100% (3/3), 875 bytes | 875.00 KiB/s, done.
+Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for '20240912_Mitzi_Mitzibranch' on GitHub by visiting:
+remote:      https://github.com/Yel-git/Group-2/pull/new/20240912_Mitzi_Mitzibranch
+To https://github.com/Yel-git/Group-2.git
+PS C:\Users\Student\Documents\repo\Group-2> git push --set-upstream origin 20240912_Mitzi_BiniMitzi
+error: src refspec 20240912_Mitzi_BiniMitzi does not match any
+error: failed to push some refs to 'https://github.com/Yel-git/Group-2.git'
+PS C:\Users\Student\Documents\repo\Group-2> git push --set-upstream 20240912_Mitzi_BiniMitzi       
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+PS C:\Users\Student\Documents\repo\Group-2> git checkout -b 20240912_Mitzi_BiniMitzi
+Switched to a new branch '20240912_Mitzi_BiniMitzi'
+  20240912_Mitzi_Mensahe
+  20240912_Mitzi_Mitzibranch
+PS C:\Users\Student\Documents\repo\Group-2> git branch -d 20240912_Mitzi_Mensahe
+Deleted branch 20240912_Mitzi_Mensahe (was d4a243b).
+PS C:\Users\Student\Documents\repo\Group-2> git branch
+* 20240912_Mitzi_BiniMitzi
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'create branch'
+nothing to commit, working tree clean
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'create branch'
+nothing to commit, working tree clean
+PS C:\Users\Student\Documents\repo\Group-2>
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'branch'       
+On branch 20240912_Mitzi_BiniMitzi
+nothing to commit, working tree clean
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'ok'    
+On branch 20240912_Mitzi_BiniMitzi
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'create branch'
+On branch 20240912_Mitzi_BiniMitzi
+PS C:\Users\Student\Documents\repo\Group-2> git push origin 20240912_Mitzi_BiniMitzi
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for '20240912_Mitzi_BiniMitzi' on GitHub by visiting:
+remote:      https://github.com/Yel-git/Group-2/pull/new/20240912_Mitzi_BiniMitzi
+remote:
+To https://github.com/Yel-git/Group-2.git
+ * [new branch]      20240912_Mitzi_BiniMitzi -> 20240912_Mitzi_BiniMitzi
+PS C:\Users\Student\Documents\repo\Group-2> git branch
+* 20240912_Mitzi_BiniMitzi
+  main
+PS C:\Users\Student\Documents\repo\Group-2> git remote show origin
+* remote origin
+  Fetch URL: https://github.com/Yel-git/Group-2.git
+  Push  URL: https://github.com/Yel-git/Group-2.git
+  HEAD branch: main
+  Remote branches:
+    20240912_Bena_MessageSya                       new (next fetch will store in remotes/origin)
+    20240912_Keziah_goodmorning                    new (next fetch will store in remotes/origin)
+    main                                           tracked
+    refs/remotes/origin/20240912_Mitzi_Mitzibranch stale (use 'git remote prune' to remove)
+    refs/remotes/origin/master                     stale (use 'git remote prune' to remove)
+  Local branch configured for 'git pull':
+    main merges with remote main
+PS C:\Users\Student\Documents\repo\Group-2> git remote show       
+PS C:\Users\Student\Documents\repo\Group-2> git remote rm origin
+PS C:\Users\Student\Documents\repo\Group-2> git remote show origin
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\Student\Documents\repo\Group-2> git remote show       
+PS C:\Users\Student\Documents\repo\Group-2> git remote add origin https://github.com/Yel-git/Group-2.git
+PS C:\Users\Student\Documents\repo\Group-2> git remote show
+origin
+PS C:\Users\Student\Documents\repo\Group-2> git fetch 
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 26 (delta 1), reused 25 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (26/26), 2.12 KiB | 39.00 KiB/s, done.
+ * [new branch]      20240912_Jash_GoodNight -> origin/20240912_Jash_GoodNight
+ * [new branch]      20240912_Keziah_goodmorning -> origin/20240912_Keziah_goodmorning
+ * [new branch]      20240912_Noriel_Goodevening -> origin/20240912_Noriel_Goodevening
+ * [new branch]      main                    -> origin/main
+PS C:\Users\Student\Documents\repo\Group-2> git checkout 20240912_Noriel_Goodevening
+error: Your local changes to the following files would be overwritten by checkout:
+        README.md
+Aborting
+[20240912_Mitzi_BiniMitzi 2c3a73c] lol
+ * branch            20240912_Noriel_Goodevening -> FETCH_HEAD
+Auto-merging README.md
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\Student\Documents\repo\Group-2> git stash pop
+No stash entries found.
+PS C:\Users\Student\Documents\repo\Group-2> git fetch    
+PS C:\Users\Student\Documents\repo\Group-2> git checkout -b 20240912_Mitzi_goodbye
+Switched to a new branch '20240912_Mitzi_goodbye'
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git add .
+PS C:\Users\Student\Documents\repo\Group-2> git commit -m 'lmoa'
+[20240912_Mitzi_goodbye 42657a3] lmoa
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+PS C:\Users\Student\Documents\repo\Group-2> git push origin 20240912_Mitzi_goodbye
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 535 bytes | 535.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for '20240912_Mitzi_goodbye' on GitHub by visiting:
+remote:      https://github.com/Yel-git/Group-2/pull/new/20240912_Mitzi_goodbye
+remote:
+To https://github.com/Yel-git/Group-2.git
+ * [new branch]      20240912_Mitzi_goodbye -> 20240912_Mitzi_goodbye
+PS C:\Users\Student\Documents\repo\Group-2> 
